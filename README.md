@@ -26,7 +26,7 @@
 ## 免责声明
 
 本项目为粉丝个人创作，灵感来源于《PUBG: BATTLEGROUNDS》。所有知识产权，包括枪械的外观、纹理和音效，均归 Krafton, Inc. 所有。本项目为非盈利性质，与任何商业公司无关联。我尊重版权，并承诺如任何版权方提出移除要求，我将立即遵守。
-- 代码：[GNU GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.txt)
+- 代码：[GPL-3.0-only](https://www.gnu.org/licenses/gpl-3.0.txt)
 - 资产：[CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 # Classic BattleRoyale Gun Pack
@@ -53,5 +53,5 @@ The gun pack supports two installation methods:
 ## Disclaimer
 
 This is a fan-made project inspired by _PUBG: BATTLEGROUNDS_. All intellectual property, including weapon models, textures, and sounds, belongs to Krafton, Inc. This project is non-profit and not affiliated with any commercial company. I respect all copyrights and will comply with any request from the rights holders to remove this content.
-- Code：[GNU GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.txt)
+- Code: [GPL-3.0-only](https://www.gnu.org/licenses/gpl-3.0.txt)
 - Assets：[CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
