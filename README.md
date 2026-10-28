@@ -1,8 +1,8 @@
-# 经典大逃杀枪械包 | Classic BattleRoyale Gun Pack
+# 经典大逃杀枪包 | Classic BattleRoyale Gun Pack
 
-[中文](#经典大逃杀枪械包) | [English](#classic-battleroyale-gun-pack)
+[中文](#经典大逃杀枪包) | [English](#classic-battleroyale-gun-pack)
 
-# 经典大逃杀枪械包
+# 经典大逃杀枪包
 
 本枪包添加了《PUBG: BATTLEGROUNDS》中的部分枪械、配件、子弹。
 - 本项目为非官方粉丝作品，与 KRAFTON, Inc. 无任何隶属、合作或官方背书关系
