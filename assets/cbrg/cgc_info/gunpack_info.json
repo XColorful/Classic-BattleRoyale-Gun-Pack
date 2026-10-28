@@ -1,0 +1,11 @@
+{
+	"gunpack_version": "${mod_version}",
+	"name_lang": "pack.cbrg.name",
+	"tooltip_lang": "pack.cbrg.desc",
+	"license": "${mod_license}",
+	"authors": [
+		${pack_authors}
+	],
+	"date": "${pack_date}",
+	"gunpack_url": "${mod_display_url}"
+}

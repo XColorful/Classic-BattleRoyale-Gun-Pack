@@ -1,83 +1,57 @@
-# 自定义枪械永续MC包构建工具 | CGC Minecraft Pack Build Kit
+# 经典大逃杀枪械包 | Classic BattleRoyale Gun Pack
 
-[中文](#自定义枪械永续MC包构建工具) | [English](#cgc-minecraft-pack-build-kit)
+[中文](#经典大逃杀枪械包) | [English](#classic-battleroyale-gun-pack)
 
-# 自定义枪械永续MC包构建工具
+# 经典大逃杀枪械包
 
-## 介绍
+本枪包添加了《PUBG: BATTLEGROUNDS》中的部分枪械、配件、子弹。
+- 本项目为非官方粉丝作品，与 KRAFTON, Inc. 无任何隶属、合作或官方背书关系
 
-[自定义枪械永续](https://github.com/XColorful/Custom-Gun-Continued)的 Minecraft 枪包构建工具，一键构建兼容多个 Minecraft 版本的枪包（`.jar 模组`/`数据包`/`资源包`）。
+---
+
+`该模组需要安装在服务端和客户端`
 
 ## 使用说明
 
-### ⭐准备Java环境（1️⃣/3）
+### 前置模组
 
-- 本工具使用 Java 17 进行构建，请确保本地已安装 Java 17
+- 任意支持 TaCZ 枪包（数据包/资源包）格式读取的模组
 
-> 可以使用以下命令检查 Java 版本：
-> ```shell
-> java --version
-> ```
+### 安装方式
 
-### ⭐初始配置（2️⃣/3）
+枪包支持两种安装方式：
+- `.jar`：服务端和客户端安装`classic_battleroyale_gun.jar`
+- `数据包`+`资源包`：服务端安装数据包`classic_battleroyale_gun-datapack.zip`，客户端安装资源包`classic_battleroyale_gun-resourcepack.zip`
 
-1. 配置`gradle.properties`：
-	- 根据文件中的注释修改相关配置
-2. 修改命名空间：
-	- 将`assets/example`、`data/example`分别重命名为`assets/{namespace}`和`data/{namespace}`
+## 免责声明
 
-### ⭐构建方式（3️⃣/3）
+本项目为粉丝个人创作，灵感来源于《PUBG: BATTLEGROUNDS》。所有知识产权，包括枪械的外观、纹理和音效，均归 Krafton, Inc. 所有。本项目为非盈利性质，与任何商业公司无关联。我尊重版权，并承诺如任何版权方提出移除要求，我将立即遵守。
+- 代码：[GNU GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.txt)
+- 资产：[CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-任选以下一种方式：
-- 在 Windows 下运行`build.cmd`
-- 或者，在 Intellij IDEA 中用 JDK 17 执行 Gradle 的 `build` 任务
+# Classic BattleRoyale Gun Pack
 
-构建产物将输出至`build/libs`：
-- `{file_name}.jar`：模组（同时包含数据包+资源包）
-- `{file_name}-datapack.zip`：数据包
-- `{file_name}-resourcepack.zip`：资源包
+This gun pack adds a selection of guns, attachments, and ammunition from _PUBG: BATTLEGROUNDS_.
+- This is an unofficial fan-made project and is not affiliated with, endorsed by, or sponsored by KRAFTON, Inc.
 
-## 从旧格式迁移
+---
 
-1. 将`assets/{namespace}/gunpack_info.json`移至`assets/{namespace}/cgc_info/gunpack_info.json`
-2. 将`gunpack.meta.json`移至`data/{namespace}/cgc_meta/gunpack.meta.json`
+`This mod needs to be installed on both the server and the client.`
 
-# CGC Minecraft Pack Build Kit
+## Usage Instructions
 
-## Introduction
+### Prerequisites
 
-A build tool for [Custom Gun Continued](https://github.com/XColorful/Custom-Gun-Continued) that lets you build gun packs (`.jar mod`/`data pack`/`resource pack`) compatible with multiple Minecraft versions.
+- Any mod that supports reading the TaCZ gun pack (datapack/resourcepack) format
 
-## Usage
+### Installation
 
-### ⭐ Set Up Java (1️⃣/3)
+The gun pack supports two installation methods:
+- `.jar`: Install `classic_battleroyale_gun.jar` on both the server and the client.
+- `Data Pack` + `Resource Pack`: Install the data pack `classic_battleroyale_gun-datapack.zip` on the server and the resource pack `classic_battleroyale_gun-resourcepack.zip` on the client.
 
-- This tool requires Java 17 for building. Make sure Java 17 is installed on your system.
+## Disclaimer
 
-> Run the following command to check your Java version:
-> ```shell
-> java --version
-> ```
-
-### ⭐ Configure the Project (2️⃣/3)
-
-1. Configure `gradle.properties`:
-	- Adjust the settings according to the comments in the file.
-2. Set the namespace:
-	- Rename `assets/example` and `data/example` to `assets/{namespace}` and `data/{namespace}`, respectively.
-
-### ⭐ Build the Pack (3️⃣/3)
-
-Choose either of the following methods:
-- Run `build.cmd` on Windows.
-- Alternatively, open the project in IntelliJ IDEA and run the Gradle `build` task using JDK 17.
-
-Build artifacts will be generated in `build/libs`:
-- `{file_name}.jar`: Mod (includes both the data pack and resource pack).
-- `{file_name}-datapack.zip`: Data pack.
-- `{file_name}-resourcepack.zip`: Resource pack.
-
-## Migrating from the Legacy Format
-
-1. Move `assets/{namespace}/gunpack_info.json` to `assets/{namespace}/cgc_info/gunpack_info.json`.
-2. Move `gunpack.meta.json` to `data/{namespace}/cgc_meta/gunpack.meta.json`.
+This is a fan-made project inspired by _PUBG: BATTLEGROUNDS_. All intellectual property, including weapon models, textures, and sounds, belongs to Krafton, Inc. This project is non-profit and not affiliated with any commercial company. I respect all copyrights and will comply with any request from the rights holders to remove this content.
+- Code：[GNU GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.txt)
+- Assets：[CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
